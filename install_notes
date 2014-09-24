@@ -1,0 +1,26 @@
+
+	1 yum update
+    2  yum install ntp
+    3  yum install wget
+    4  service ntpd start
+    5  service iptables stop
+    6  service ip66tables stop
+    7  service ip6tables stop
+    8  chkconfig iptables off
+    9  chkconfig ip6tables off
+   10  cat /etc/sysconfig/selinux 
+   11  vi /etc/hosts
+   12  cd .ssh
+   13  ls
+   14  ssh-keygen
+   15  ls
+   16  ssh-copy-id v1
+   17  ssh-copy-id v2
+   18  ssh-copy-id v3
+   19  ssh-copy-id v4
+   20  ping v1
+   21  ping v2
+   22  ping v3
+   23  ping v4
+
+
